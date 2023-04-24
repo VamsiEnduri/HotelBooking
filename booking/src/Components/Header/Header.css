@@ -1,0 +1,152 @@
+.header{
+    background-color: #3843b5;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+}
+.headerContainer{
+    width: 100%;
+    max-width: 1042px;
+    padding: 10px;
+    margin: 20px 0px 80px 0px;
+  
+}
+.headerContainer.listMode{
+    margin: 20px 0px 0px 0px;
+
+}
+.headerList{
+  display: flex;
+margin-bottom: 20px;
+  gap: 60px;
+}
+.headerListItems{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+}
+.headerListItems.actve{
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.icon{
+    font-size: 23px;
+}
+.headerDesc{
+    margin: 20px 0px;
+}
+.header-btn{
+    padding: 7px 12px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.header-btn:hover{
+    background-color: #4160b5;
+    color: #fff;
+    font-weight: 500;
+}
+
+.headerSearch{
+    /* margin-right: 3%; */
+    height: 50px;
+    background-color: #fff;
+display: flex;
+color: black;
+padding: 10px 0px;
+align-items: center;
+justify-content: space-around;
+position: absolute;
+bottom: -25px;
+border: 1px solid yellow;
+width: 100%;
+max-width: 1024px;
+}
+
+.headerSearch-icon{
+    color: gray;
+    font-size: 17px;
+}
+.headerSearchItem{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+::placeholder{
+    font-size: 14px;
+}
+.headerSearchInput{
+border: none;
+outline: none;
+}
+.headerSerachText{
+    color: lightgray;
+    cursor: pointer;
+}
+
+.date{
+    position: absolute;
+    top: 50px;
+    box-shadow: 1px 3px 3px rgba(0,0,0,0.7);
+/* margin-bottom: 10px; */
+}
+
+
+.options{
+    position: relative;
+    background-color: white;
+    color: rgb(105, 73, 73);
+    top: 50px;
+    border-radius: 5px;
+
+    border: 1px solid yellow;
+    box-shadow: 1px 3px 3px rgba(0,0,0,0.7);
+}
+.optioItem{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin: 4px;
+    padding: 4px;
+}
+.optionCounter{
+    display: flex;
+    gap: 6px;
+}
+.optionCounBtn{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    width: 30px;
+    height: 30px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+.optionCounBtn:disabled{
+    cursor: not-allowed;
+}
+.headerSearchItem{
+    position: relative;
+    /* top: 50px; */
+}
+
+.options{
+    position: absolute;
+    top: 37px;
+    left: 30px;
+}
+.headerSearchBtn{
+border: none;
+outline: none;
+color: #fff;
+padding: 7px 12px;
+background-color: #3843b5;
+border-radius: 6px;
+font-size: 14px;
+}

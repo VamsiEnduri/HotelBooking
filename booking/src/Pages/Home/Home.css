@@ -1,0 +1,14 @@
+.homeContainer{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    row-gap: 5px;
+}
+.homeTitle{
+    margin-top: 5.5rem;
+}
+.homeTitle2{
+    margin-top: -1rem;
+}

@@ -1,0 +1,24 @@
+.footer{
+    width: 100%;
+    /* background-color:#4f7f8c; */
+    padding: 10px;
+    /* color: #fff; */
+}
+.foot_icon{
+    color: blue;
+    font-size: 22px;
+}
+.follows > span{
+    display: flex;
+    column-gap: 10px;
+}
+.links > .list{
+background-color: transparent;
+}
+/* .list > a{
+    text-decoration: none;
+    color: #fff;
+}
+h4{
+    color: black;
+} */

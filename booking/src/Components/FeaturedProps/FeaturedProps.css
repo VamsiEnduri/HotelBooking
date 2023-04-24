@@ -1,0 +1,38 @@
+.fp{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.fPropsItem{
+    height: 230px;
+    flex: 1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.fPropsImg{
+    width: 100%;
+    object-fit: cover;
+}
+span{
+    padding-left:10px ;
+}
+.fpName{
+    font-size: 20px;
+    font-weight: bold;
+}
+.fpCity{
+    font-weight: 500;
+    font-size: 15px;
+}
+.faRating>button{
+    margin-left:10px ;
+    border: none;
+    outline: none;
+    padding: 5px;
+    color: #fff;
+    border-radius: 4px;
+    background-color: blue;
+}
